@@ -17,8 +17,11 @@
             Enter a Number: <input type="number" name="number"><br>
             <input type="submit" value="Submit">
             <br>
-            <br>
-           Average:  ${average}
+        </form>
+        Average:  ${average}
+        <form action="average" method="get">
+            <input type="submit" value="Reset">
+            <input type="hidden" name="action" value="reset">
         </form>
     </body>
 </html>
